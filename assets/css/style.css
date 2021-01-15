@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+.hero-banner{
+    position: relative;
+}
+
+.first-bk {
+    height: 400px;
+    width: 100%;
+    z-index: -1000;
+    filter: blur(30px);
+    opacity: 0.97;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-text span {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.hero-text p {
+    margin-top: 7px;
+}
+
+.hero-banner button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    text-align: center;
+
+    padding: 10px 50px;
+    border: rgb(24, 24, 24);
+    border-radius: 15px;
+}
+
+.header{
+    background-color: #35b88f;
+    height: 400px;
+    width: 100%;
+    z-index: -1000;
+    opacity: 0.97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 250px;
+}
+
+.header h2, #header-about, #more {
+    margin: 20px 0;
+}
+
+#more {
+    padding: 10px 50px;
+    border: rgb(24, 24, 24);
+    border-radius: 15px;
+}
+
+
+.container {
+    position: relative;
+}
+
+.qr-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.qr-container h4 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.adress-container .left-side {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+
+.adress-container .left-side label{
+    margin-bottom: 10px;
+}
+
+.adress-container .left-side input[type=text]{
+    padding: 10px 50px;
+    border: rgb(24, 24, 24);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.adress-container .right-side {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.adress-container .right-side button {
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: rgb(24, 24, 24);
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.qr-left-side {
+    margin-bottom: 10px;
+}
+
+.right-side-buttons {
+    display: flex;
+    flex: 1
+}
+
+
+.right-side-buttons button {
+    margin: 0 3px;
+}
+
+
+
