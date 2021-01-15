@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoQr</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+
+    <main class="main">
+
+        <div class="hero-banner">
+            <img src="./assets/img/first-background.jpg" alt="first background" class="first-bk">
+            <div class="hero-text">
+                <h1>GoQr</h1>
+                <hr>
+                <p>Easy QRCode</p>
+            </div>
+            <button id="down">Go down</button>
+        </div>
+
+        <header class="header">
+            <h2>For everyone's that needing a fast & easy Qr Code</h2>
+            <p id="header-about">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quos dolorum architecto sint dicta sunt id voluptatem? 
+                Voluptatem, temporibus quasi, laborum blanditiis dolores 
+                reprehenderit nam iste ipsam omnis aliquid perferendis cum 
+                numquam consectetur aut illum quod.
+            </p>
+            <button id="more">Know more</button>
+        </header>
+
+        <div class="container">
+            <img src="./assets/img/first-background.jpg" alt="first background" class="first-bk">
+            <div class="qr-container">
+                <img id="qr-example" src="https://fakeimg.pl/250/" alt="QrCode">
+                <h4 id="example-text">Here is an exemple of what you'll get</h4>
+            </div>
+        </div>
+
+
+            
+        <div class="adress-container header">
+            <div class="left-side"> 
+                <label for="qr-link">Your qr properties</label>
+                <div>
+                    <input type="text" class="qr-left-side" id="qr-link" placeholder="Your qr-link...">
+                    <input type="text" class="qr-left-side" id="qr-bgcolor" placeholder="Your qr-bgcolor...">
+                    <input type="text" class="qr-left-side" id="qr-color" placeholder="Your qr-color...">
+                </div>
+
+            </div>
+
+            <div class="right-side">
+                <p>To generate it, please click down here</p>
+                <div class="right-side-buttons">
+                <button id="qr-generate-svg">Generate as svg</button>
+                <button id="qr-generate-jpg">Generate as jpg</button>
+                </div>
+            </div>
+        </div>
+                
+    </main>
+
+
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
